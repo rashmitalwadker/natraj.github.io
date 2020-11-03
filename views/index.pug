@@ -1,0 +1,69 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+  nav#navbar
+    ul
+      
+        div#logo
+            img(src="../static/img/3.png")
+            | HDA
+        li #[a(href="/") Home]
+        li #[a(href="/") About us] 
+        li #[a(href="/") Class Info]
+        li #[a(href="/") Contact us]
+        
+        
+        
+    section#introSection
+             div WELCOME TO RASHMI'S DANCE ACADEMY
+             div Let Sleep Dance Repeat 
+        
+        
+
+    section#missionSection 
+      h2 our mission 
+      div.card 
+        h3 Dance Perfection
+        div.card-box 
+          div.card-img 
+              img(src="/static/img/3.png")
+          div.card-content 
+              p This is the best dance academy in the universe
+        
+      div.card
+        h3 Dance the way you like
+         div.card-box 
+          div.card-img 
+              img(src="/static/img/3.png")
+          div.card-content 
+              p This is the best dance academy in the universe
+        
+      div.card
+        h3 Expert Teaching
+         div.card-box 
+          div.card-img 
+              img(src="/static/img/3.png")
+          div.card-content 
+              p This is the best dance academy in the universe
+        
+      
+      
+    section#sponcersection
+        h2 our sponcers
+        div#sponcers 
+           img(src="/static/img/apple.png",alt='Sponcer Image',class='spImage')
+           img(src="/static/img/sky.png",alt='Sponcer Image',class='spImage')
+           img(src="/static/img/microsoft_PNG14.png",alt='Sponcer Image',class='spImage')
+           img(src="/static/img/hp1.png",alt='Sponcer Image',class='spImage')
+      
+        
+    footer#footer
+         | Copyright ©2020 RashmiDanceacademy.com | All rights  reserved
+
+
+    script
+      include ../static/index.js

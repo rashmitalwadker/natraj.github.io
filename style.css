@@ -1,0 +1,159 @@
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+        padding: 0px;
+    }
+    
+    #logo {
+        display: flex;
+        color: white;
+        align-items: center;
+        margin: 0px 14px;
+        font-size: 20px;
+        margin-right: 40px;
+    }
+    
+    #logo img {
+        height: 42px;
+        filter: invert(1);
+    }
+    
+    #navbar {
+        background-color: #bc2d2d;
+        padding: 5px -3px;
+        height: 58px;
+    }
+    
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        /* justify-content: center;*/
+        align-items: center;
+        margin: 0px;
+    }
+    
+    #navbar li {
+        list-style: none;
+        padding: 4px;
+    }
+    
+    #navbar li a {
+        text-decoration: none;
+        list-style: none;
+        padding: 19px 13px;
+        align-items: center;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    #introSection {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        background-color: red;
+        margin: 8px 5px;
+        background: center/ cover no-repeat url('/static/bgpic.jpg');
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 2rem;
+        padding-bottom: 162px;
+        font-family: 'Grandstander', cursive;
+    }
+    
+    #missionSection {
+        font-family: 'yeon Sung';
+        height: 250px;
+        background-color: white;
+    }
+    
+    #sponcersection {
+        display: flex;
+        flex-direction: row;
+        height: 250px;
+        background-color: rgb(202, 78, 6);
+        font-size: 2.5rem;
+        padding-bottom: 266px;
+        align-items: center;
+    }
+    
+    #sponcers {
+        height: 120px;
+        max-width: 1000px;
+        margin: 59px auto;
+    }
+    
+    .spImage {
+        height: 80%;
+        margin: 203px 35px;
+    }
+    
+    #sponcersection h2 {
+        color: black;
+        font-family: 'yeon Sung';
+        justify-content: center;
+        align-items: center;
+        padding-top: 37px;
+        margin-right: 13px;
+        height: 20px;
+    }
+    
+    #missionSection h2 {
+        color: black;
+        font-family: 'yeon Sung';
+        text-align: center;
+        padding-top: 1px;
+        justify-content: center;
+        font-size: 30px;
+    }
+    
+    .card {
+        border: 2px solid black;
+        border-radius: 18px;
+        width: 32%;
+        height: 190px;
+        display: inline-block;
+        margin: 0px 3px;
+    }
+    
+    .card h3 {
+        font-size: 1.5rem;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2px;
+    }
+    
+    .card-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .card-img {
+        height: 100px;
+        padding: 1px 14px;
+    }
+    
+    .card-img img {
+        height: inherit;
+    }
+    
+    .card-content {
+        font-size: 1rem;
+        justify-content: center;
+    }
+    
+    .card-content p {
+        font-size: 1rem;
+    }
+    
+    #footer {
+        display: flex;
+        justify-content: center;
+        height: 60px;
+        font-style: arial;
+        background-color: black;
+        color: white;
+        font-size: 1.5rem;
+        padding-top: 6px;
+    }
